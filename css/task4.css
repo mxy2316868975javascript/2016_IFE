@@ -1,0 +1,7 @@
+* {margin: 0;padding: 0}
+div {box-sizing: border-box;}
+
+.main {overflow: hidden; position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%); width: 400px;height: 200px;background: #ccc;}
+.main div {position: absolute;width: 100px;height: 100px;border-radius: 50%; background: #fc0;}
+.main .circle1 {top: -50px;left: -50px}
+.main .circle2 {top: 150px;left: 350px}
